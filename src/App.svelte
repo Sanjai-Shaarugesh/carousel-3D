@@ -62,7 +62,7 @@
     isDragging = true;
     startX = event.clientX;
   }
-  
+  //
   function handleMouseMove(event) {
     if (isDragging) {
       currentX = event.clientX;
